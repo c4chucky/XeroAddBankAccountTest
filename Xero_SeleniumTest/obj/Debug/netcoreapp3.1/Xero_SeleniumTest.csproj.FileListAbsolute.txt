@@ -1,0 +1,3 @@
+C:\Projects\SeleniumC\Xero_SeleniumTest\Xero_SeleniumTest\obj\Debug\netcoreapp3.1\Xero_SeleniumTest.csprojAssemblyReference.cache
+C:\Projects\SeleniumC\Xero_SeleniumTest\Xero_SeleniumTest\obj\Debug\netcoreapp3.1\Xero_SeleniumTest.AssemblyInfoInputs.cache
+C:\Projects\SeleniumC\Xero_SeleniumTest\Xero_SeleniumTest\obj\Debug\netcoreapp3.1\Xero_SeleniumTest.AssemblyInfo.cs
