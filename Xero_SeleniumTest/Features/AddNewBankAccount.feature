@@ -6,10 +6,9 @@
 
 @mytag
 Scenario: Add an ANZ Bank account inside my Xero Organisation
-	Given I am logged in as a Xero User
-	And I navigate to the Dashboard
-	When I click Set up now in Get visibility over your cash flow
-	And I click the button Connect your bank to import transactions automatically
+	Given I login as a Xero User
+	And I navigate to the Accounting, Bank Accounts page
+	When I click Add bank account button
 	When I select ANZ from the Banks list
 	And I add my Account Name as <MyAnzAcc> 
 	And Account type as <Credit Card>

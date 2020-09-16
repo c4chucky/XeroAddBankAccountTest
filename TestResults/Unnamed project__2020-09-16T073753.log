@@ -1,0 +1,122 @@
+﻿2020-09-16T07:37:53.0509379+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-09-16T07:37:53.0511219+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.3.41 in Framework netcore31 in x86 mode execution started
+2020-09-16T07:37:53.0511297+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-09-16T07:37:53.0534069+12:00;VSTestExecutionThread;Info;Current UserName: 'brownc', MachineName: 'ASY-WIN10-75'
+2020-09-16T07:37:53.1092823+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll
+2020-09-16T07:37:53.1104233+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults" (default)
+2020-09-16T07:37:53.1109441+12:00;VSTestExecutionThread;Info;Profile: 
+2020-09-16T07:37:53.3410946+12:00;VSTestExecutionThread;Info;Log file path: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults\Unnamed project__2020-09-16T073753.log
+2020-09-16T07:37:53.3600675+12:00;Thread#12;Info;Checking activation
+2020-09-16T07:37:53.7181849+12:00;Thread#12;Info;Activated.
+2020-09-16T07:37:53.7186640+12:00;Thread#12;Info;Activation check completed
+2020-09-16T07:37:53.7188144+12:00;Thread#12;Info;Starting test run
+2020-09-16T07:37:53.8908659+12:00;Thread#12;Info;Discovering target: Default
+2020-09-16T07:37:53.8912312+12:00;Thread#12;Info;Discovering tests from assembly: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll
+2020-09-16T07:37:54.0945851+12:00;Thread#12;Info;Discovered tests from assembly: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll
+2020-09-16T07:37:54.0962360+12:00:Test Suite Dump
+2020-09-16T07:37:54.0990908+12:00:#0: Unnamed project/ - 
+2020-09-16T07:37:54.0991302+12:00:#1: Default - 
+2020-09-16T07:37:54.0991494+12:00:#2: Xero_SeleniumTest - 
+2020-09-16T07:37:54.0991561+12:00:#3: AddNewBankAccount - 
+2020-09-16T07:37:54.1013159+12:00:#4: Add an ANZ Bank account inside my Xero Organisation - TestAssembly:Xero_SeleniumTest/Feature:AddNewBankAccount/Scenario:Add+an+ANZ+Bank+account+inside+my+Xero+Organisation
+2020-09-16T07:37:54.1014060+12:00:End: Test Suite Dump
+2020-09-16T07:37:54.1342142+12:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-16T07:37:54.1362612+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-09-16T07:37:54.1363444+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-09-16T07:37:54.1407845+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-16T07:37:54.1408152+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-09-16T07:37:54.1408219+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-09-16T07:37:54.1408289+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-09-16T07:37:54.1418524+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-09-16T07:37:54.1437763+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-16T07:37:54.1471821+12:00:Thread #0: creating new test thread executor for Xero_SeleniumTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-09-16T07:37:54.1502189+12:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-16T07:37:54.1505484+12:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-16T07:37:54.1630132+12:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-09-16T07:37:54.1649799+12:00:starting Out Of Process Executor
+2020-09-16T07:37:54.1857812+12:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T07:37:54.1890467+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-09-16T07:37:54.1890677+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-09-16T07:37:54.1904038+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T07:37:54.1913893+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-16T07:37:54.1915578+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-16T07:37:54.1916874+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T07:37:54.1998569+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T07:37:54.1998851+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-16T07:37:54.1999735+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-16T07:37:54.2000342+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T07:37:54.2002823+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T07:37:54.2002960+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-16T07:37:54.2003944+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-16T07:37:54.2005226+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T07:37:54.2015226+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T07:37:54.2015889+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-16T07:37:54.2017378+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-16T07:37:54.2018125+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T07:37:54.2147108+12:00:Starting callback TCP Rpc server
+2020-09-16T07:37:54.2420547+12:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-09-16T07:37:54.2423943+12:00:Started callback TCP Rpc server on port 32768
+2020-09-16T07:37:54.2424125+12:00:Starting logger TCP Rpc server
+2020-09-16T07:37:54.2503454+12:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-09-16T07:37:54.2504190+12:00:Started logger TCP Rpc server on port 32769
+2020-09-16T07:37:54.3706055+12:00;Thread#12;Info;Executor full path resolved: C:\Program Files\dotnet\dotnet.exe
+2020-09-16T07:37:54.3733581+12:00;Thread#12;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2020-09-16T07:37:54.5606293+12:00;Thread#12;Info;Successfully started SpecFlow+ Runner executor process
+2020-09-16T07:37:54.5654119+12:00:Out of Process Executor 21052 started
+2020-09-16T07:37:54.5654316+12:00:Waiting for endpoint
+2020-09-16T07:37:56.8000409+12:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T07:37:56.8002343+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-09-16T07:37:56.8002480+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-09-16T07:37:56.8002635+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T07:37:56.8002692+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-16T07:37:56.8003947+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-16T07:37:56.8004563+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T07:37:56.8014441+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T07:37:56.8014589+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-16T07:37:56.8015415+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-16T07:37:56.8015972+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T07:37:56.8017749+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T07:37:56.8017865+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-16T07:37:56.8018503+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-16T07:37:56.8019027+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T07:37:56.8020871+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T07:37:56.8020999+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-16T07:37:56.8021684+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-16T07:37:56.8022207+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T07:37:59.8506106+12:00:Remote executor port received: 32770
+2020-09-16T07:37:59.8510951+12:00:Creating executor TCP client on port 32770
+2020-09-16T07:37:59.8516104+12:00:Created executor TCP client on port 32770
+2020-09-16T07:37:59.8516258+12:00:Connecting to remote executor TCP server
+2020-09-16T07:37:59.8532360+12:00:Connected remote executor TCP server
+2020-09-16T07:37:59.8534704+12:00:trying to connect to Out of Process Executor the 1 attempt
+2020-09-16T07:37:59.8534871+12:00:Connection to Out of Process Executor established in the 1 attempt
+2020-09-16T07:38:00.6055314+12:00:2020-09-16T07:38:00.6011257+12:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll on test thread #0
+2020-09-16T07:38:00.6208643+12:00:Endpoint 21052 started
+2020-09-16T07:38:00.6527316+12:00:2020-09-16T07:38:00.6516151+12:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-09-16T07:38:00.8863458+12:00:2020-09-16T07:38:00.8851322+12:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-16T07:38:00.8920321+12:00:2020-09-16T07:38:00.8908296+12:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-09-16T07:38:00.8975076+12:00:2020-09-16T07:38:00.8964960+12:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\brownc\.nuget\packages\specflow\3.3.30\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-09-16T07:38:02.9785849+12:00:2020-09-16T07:38:02.9754545+12:00:Thread#0:T:-> Loading plugin C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-09-16T07:38:03.0277607+12:00:2020-09-16T07:38:03.0254734+12:00:Assembly resolving TechTalk.SpecFlow, Version=3.3.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-16T07:38:03.0378153+12:00:2020-09-16T07:38:03.0355652+12:00:Thread#0:T:-> Using default config
+2020-09-16T07:38:03.1346350+12:00:2020-09-16T07:38:03.1296165+12:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-09-16T07:38:03.1613089+12:00:2020-09-16T07:38:03.1567688+12:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-09-16T07:38:03.1696259+12:00:2020-09-16T07:38:03.1668822+12:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\brownc\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-09-16T07:38:03.2069699+12:00:2020-09-16T07:38:03.2040302+12:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-09-16T07:38:03.2130618+12:00:2020-09-16T07:38:03.2104372+12:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-09-16T07:38:03.2196662+12:00:2020-09-16T07:38:03.2171740+12:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\brownc\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-09-16T07:38:04.5602097+12:00:2020-09-16T07:38:04.5548002+12:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T07:38:04.5659085+12:00:2020-09-16T07:38:04.5637092+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-09-16T07:38:04.5714554+12:00:2020-09-16T07:38:04.5691487+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\brownc\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-09-16T07:38:04.6062670+12:00:2020-09-16T07:38:04.6039521+12:00:Assembly resolving nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb
+2020-09-16T07:38:04.6108485+12:00:2020-09-16T07:38:04.6086138+12:00:[AssemblyCache] Trying to resolve 'nunit.framework' from .deps.json file
+2020-09-16T07:38:04.6160353+12:00:2020-09-16T07:38:04.6139467+12:00:[AssemblyCache] Resolved 'nunit.framework' to 'C:\Users\brownc\.nuget\packages\nunit\3.12.0\lib\netstandard2.0\nunit.framework.dll'
+2020-09-16T07:38:04.8461744+12:00:2020-09-16T07:38:04.8420987+12:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-09-16T07:38:04.8538671+12:00:2020-09-16T07:38:04.8506811+12:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-09-16T07:38:04.8595598+12:00:2020-09-16T07:38:04.8574673+12:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\brownc\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-09-16T07:38:06.0191380+12:00:Thread#0: Test #4/0 is started on thread #0
+2020-09-16T07:38:06.2214824+12:00:2020-09-16T07:38:06.2205939+12:00:Thread#0:B:Given I login as a Xero User
+2020-09-16T07:38:06.2297186+12:00:2020-09-16T07:38:06.2288414+12:00:Thread#0:T:-> warning: The step GivenILoginAsAXeroUser is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T07:38:06.2851152+12:00:2020-09-16T07:38:06.2838877+12:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T07:38:06.2872042+12:00:2020-09-16T07:38:06.2863716+12:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2020-09-16T07:38:06.2892812+12:00:2020-09-16T07:38:06.2885618+12:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\brownc\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'

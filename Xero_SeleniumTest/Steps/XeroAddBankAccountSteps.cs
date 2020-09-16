@@ -1,6 +1,10 @@
 ﻿using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using TechTalk.SpecFlow;
 
@@ -8,38 +12,55 @@ namespace Xero_SeleniumTest.Steps
 {
     [Binding]
     class XeroAddBankAccountSteps
-    {   
-        [SetUp]
-        [Given(@"I am logged in as a Xero User")]
-        public void GivenIAmLoggedInAsAXeroUser()
+    {
+        ExplicitWait wait = new ExplicitWait();
+
+        [Given(@"I login as a Xero User")]
+        [Obsolete]
+        public void GivenILoginAsAXeroUser()
         {
+            //string startupPath = Directory.GetCurrentDirectory();
+            //Console.WriteLine("*********************** Startup path is: " + startupPath + "******************************");
+            //DriverProperties.driver = new FirefoxDriver(@"C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\Drivers");
+
+            DriverProperties.driver = new ChromeDriver(@"C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\Drivers");
+     
+            DriverProperties.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
+            DriverProperties.driver.Navigate().GoToUrl("https://login.xero.com/identity/user/login/");
+            
+            LoginPage loginPage = new LoginPage();
+
+            loginPage.UserLogin();
 
             Console.WriteLine("Login as Xero User");
         }
 
-        [Test]
-        [Given(@"I navigate to the Dashboard")]
-        public void GivenINavigateToTheDashboard()
+        [Given(@"I navigate to the Accounting, Bank Accounts page")]
+        [Obsolete]
+        public void GivenINavigateToTheAccountingBankAccountsPage()
         {
-            Console.WriteLine("Navigate to Accounts");
+            DashboardPage dashboard = new DashboardPage();
+            dashboard.NavigateToBankAccounts();
         }
 
-        [When(@"I click Set up now in Get visibility over your cash flow")]
-        public void WhenIClickSetUpNowInGetVisibilityOverYourCashFlow()
+        [When(@"I click Add bank account button")]
+        public void WhenIClickAddBankAccountButton()
         {
             Console.WriteLine("Click Add bank account button");
+
+            BankAccountsPage bankAccPage = new BankAccountsPage();
+            bankAccPage.btnAddBankAccount.Click();
         }
 
-        [When(@"I click the button Connect your bank to import transactions automatically")]
-        public void WhenIClickTheButtonConnectYourBankToImportTransactionsAutomatically()
+        [When(@"I select (.*) from the Banks list")]
+        [Obsolete]
+        public void WhenISelectANZFromTheBanksList(string bankName)
         {
-            Console.WriteLine("Click Add bank account button");
-        }
-
-        [When(@"I select ANZ from the Banks list")]
-        public void WhenISelectANZFromTheBanksList()
-        {
-            Console.WriteLine("Click Add bank account button");
+            Console.WriteLine("Select Bank: " + bankName);
+            
+            IWebElement bank = DriverProperties.driver.FindElement(By.XPath(@"//ul/li[contains(text(),'" + bankName + "')]"));
+            wait.WaitforElement(bank).Click();
+            
         }
 
         [When(@"I add my Account Name as (.*)")]
@@ -88,6 +109,7 @@ namespace Xero_SeleniumTest.Steps
         public void ThenICanSeeMyNewBankAccountInMyXeroOrganisation()
         {
             Console.WriteLine("Click Add bank account button");
+            DriverProperties.driver.Close();
         }
 
     }

@@ -1,0 +1,322 @@
+﻿2020-09-16T18:02:53.6170720+12:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-09-16T18:02:53.6172276+12:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework netcore31 in x86 mode execution started
+2020-09-16T18:02:53.6172324+12:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-09-16T18:02:53.6185331+12:00;VSTestExecutionThread;Info;Current UserName: 'brownc', MachineName: 'ASY-WIN10-75'
+2020-09-16T18:02:53.6426485+12:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll
+2020-09-16T18:02:53.6429259+12:00;VSTestExecutionThread;Info;Output folder configured to "C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults" (default)
+2020-09-16T18:02:53.6430046+12:00;VSTestExecutionThread;Info;Profile: 
+2020-09-16T18:02:53.6818652+12:00;VSTestExecutionThread;Info;Log file path: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults\Unnamed project__2020-09-16T180253.log
+2020-09-16T18:02:53.6864181+12:00;Thread#12;Info;Checking activation
+2020-09-16T18:02:53.7621671+12:00;Thread#12;Info;Activated.
+2020-09-16T18:02:53.7623858+12:00;Thread#12;Info;Activation check completed
+2020-09-16T18:02:53.7624729+12:00;Thread#12;Info;Starting test run
+2020-09-16T18:02:53.8425756+12:00;Thread#12;Info;Discovering target: Default
+2020-09-16T18:02:53.8428399+12:00;Thread#12;Info;Discovering tests from assembly: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll
+2020-09-16T18:02:53.9141556+12:00;Thread#12;Info;Discovered tests from assembly: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll
+2020-09-16T18:02:53.9150177+12:00:Test Suite Dump
+2020-09-16T18:02:53.9163581+12:00:#0: Unnamed project/ - 
+2020-09-16T18:02:53.9163808+12:00:#1: Default - 
+2020-09-16T18:02:53.9163848+12:00:#2: Xero_SeleniumTest - 
+2020-09-16T18:02:53.9163876+12:00:#3: AddNewBankAccount - 
+2020-09-16T18:02:53.9173269+12:00:#4: Add an ANZ Bank account inside my Xero Organisation - TestAssembly:Xero_SeleniumTest/Feature:AddNewBankAccount/Scenario:Add+an+ANZ+Bank+account+inside+my+Xero+Organisation
+2020-09-16T18:02:53.9173741+12:00:End: Test Suite Dump
+2020-09-16T18:02:53.9324916+12:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-16T18:02:53.9341440+12:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-09-16T18:02:53.9342071+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-09-16T18:02:53.9369011+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-16T18:02:53.9369151+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-09-16T18:02:53.9369188+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-09-16T18:02:53.9369225+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-09-16T18:02:53.9375347+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-09-16T18:02:53.9387444+12:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-09-16T18:02:53.9407990+12:00:Thread #0: creating new test thread executor for Xero_SeleniumTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-09-16T18:02:53.9431014+12:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-16T18:02:53.9434460+12:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-09-16T18:02:53.9460215+12:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-09-16T18:02:53.9474791+12:00:starting Out Of Process Executor
+2020-09-16T18:02:53.9497793+12:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:02:53.9533873+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-09-16T18:02:53.9534196+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-09-16T18:02:53.9550606+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:02:53.9558325+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-16T18:02:53.9560122+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-09-16T18:02:53.9560854+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:02:53.9565058+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-09-16T18:02:53.9572959+12:00:Tfm: netcoreapp3.1
+2020-09-16T18:02:53.9573235+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-09-16T18:02:53.9573302+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-09-16T18:02:53.9574976+12:00:[AssemblyCache] Found file 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2020-09-16T18:02:53.9588355+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2020-09-16T18:02:53.9598857+12:00:Starting callback TCP Rpc server
+2020-09-16T18:02:53.9801308+12:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-09-16T18:02:53.9801949+12:00:Started callback TCP Rpc server on port 32768
+2020-09-16T18:02:53.9802155+12:00:Starting logger TCP Rpc server
+2020-09-16T18:02:53.9824952+12:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-09-16T18:02:53.9825229+12:00:Started logger TCP Rpc server on port 32769
+2020-09-16T18:02:54.0532510+12:00:Executing test executor at 'dotnet' 'exec "C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.x86.netcoreapp3_1.dll" --remoteRunnerPid 10684 --uniqueId "2020-09-16T180253" --outputFolder "C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:02:54.0674782+12:00:Executor with PID 11648 has been started successfully.
+2020-09-16T18:02:54.0703960+12:00:Out of Process Executor 11648 started
+2020-09-16T18:02:54.0704135+12:00:Waiting for endpoint
+2020-09-16T18:02:54.3329176+12:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:02:54.3329402+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-09-16T18:02:54.3329440+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-09-16T18:02:54.3329487+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:02:54.3329545+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-16T18:02:54.3329925+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-09-16T18:02:54.3330259+12:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:02:54.3330307+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-09-16T18:02:54.3330558+12:00:Tfm: netcoreapp3.1
+2020-09-16T18:02:54.3330603+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-09-16T18:02:54.3330715+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-09-16T18:02:54.3331357+12:00:[AssemblyCache] Found file 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2020-09-16T18:02:54.3341267+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2020-09-16T18:02:54.5898341+12:00:Remote executor port received: 32770
+2020-09-16T18:02:54.5901524+12:00:Creating executor TCP client on port 32770
+2020-09-16T18:02:54.5905296+12:00:Created executor TCP client on port 32770
+2020-09-16T18:02:54.5905395+12:00:Connecting to remote executor TCP server
+2020-09-16T18:02:54.5914131+12:00:Connected remote executor TCP server
+2020-09-16T18:02:54.5915457+12:00:trying to connect to Out of Process Executor the 1 attempt
+2020-09-16T18:02:54.5915592+12:00:Connection to Out of Process Executor established in the 1 attempt
+2020-09-16T18:02:54.7123314+12:00:2020-09-16T18:02:54.7104596+12:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\Xero_SeleniumTest.dll on test thread #0
+2020-09-16T18:02:54.7173134+12:00:Endpoint 11648 started
+2020-09-16T18:02:54.7344238+12:00:2020-09-16T18:02:54.7339353+12:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-09-16T18:02:54.8471999+12:00:2020-09-16T18:02:54.8467372+12:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-16T18:02:54.8501400+12:00:2020-09-16T18:02:54.8498175+12:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-09-16T18:02:54.8530346+12:00:2020-09-16T18:02:54.8526963+12:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\brownc\.nuget\packages\specflow\3.4.3\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-09-16T18:02:54.9495591+12:00:2020-09-16T18:02:54.9490405+12:00:Thread#0:T:-> Loading plugin C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-09-16T18:02:54.9519894+12:00:2020-09-16T18:02:54.9515232+12:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-09-16T18:02:54.9578827+12:00:2020-09-16T18:02:54.9574280+12:00:Thread#0:T:-> Using default config
+2020-09-16T18:02:54.9692859+12:00:2020-09-16T18:02:54.9686970+12:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-09-16T18:02:54.9714969+12:00:2020-09-16T18:02:54.9711654+12:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-09-16T18:02:54.9723751+12:00:2020-09-16T18:02:54.9720509+12:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\brownc\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-09-16T18:02:54.9736432+12:00:2020-09-16T18:02:54.9733523+12:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-09-16T18:02:54.9741638+12:00:2020-09-16T18:02:54.9738687+12:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-09-16T18:02:54.9748698+12:00:2020-09-16T18:02:54.9745738+12:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\brownc\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-09-16T18:02:54.9842260+12:00:2020-09-16T18:02:54.9837827+12:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:02:54.9848493+12:00:2020-09-16T18:02:54.9845498+12:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-09-16T18:02:54.9856879+12:00:2020-09-16T18:02:54.9853937+12:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\brownc\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-09-16T18:02:55.0168774+12:00:2020-09-16T18:02:55.0164355+12:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-09-16T18:02:55.0174992+12:00:2020-09-16T18:02:55.0172099+12:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-09-16T18:02:55.0182497+12:00:2020-09-16T18:02:55.0179751+12:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\brownc\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-09-16T18:02:55.1978966+12:00:Thread#0: Test #4/0 is started on thread #0
+2020-09-16T18:02:55.2231288+12:00:2020-09-16T18:02:55.2226975+12:00:Thread#0:B:Given I login as a Xero User
+2020-09-16T18:02:55.2333591+12:00:2020-09-16T18:02:55.2329098+12:00:Thread#0:T:-> warning: The step GivenILoginAsAXeroUser is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T18:02:55.2447923+12:00:2020-09-16T18:02:55.2442778+12:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:02:55.2454885+12:00:2020-09-16T18:02:55.2451359+12:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2020-09-16T18:02:55.2462626+12:00:2020-09-16T18:02:55.2459747+12:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\brownc\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2020-09-16T18:02:55.2480992+12:00:2020-09-16T18:02:55.2477726+12:00:Thread#0:T:*********************** Startup path is: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults******************************
+2020-09-16T18:03:10.3559006+12:00:2020-09-16T18:03:10.3531177+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:03:10.3607317+12:00:2020-09-16T18:03:10.3581169+12:00:[AssemblyCache] Trying to resolve 'SeleniumExtras.PageObjects' from .deps.json file
+2020-09-16T18:03:10.3653392+12:00:2020-09-16T18:03:10.3635830+12:00:[AssemblyCache] Resolved 'SeleniumExtras.PageObjects' to 'C:\Users\brownc\.nuget\packages\dotnetseleniumextras.pageobjects.core\3.12.0\lib\netstandard2.0\SeleniumExtras.PageObjects.dll'
+2020-09-16T18:03:10.3793278+12:00:2020-09-16T18:03:10.3772357+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:03:10.4219224+12:00:2020-09-16T18:03:10.4203110+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:03:10.4254220+12:00:2020-09-16T18:03:10.4238050+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:03:10.4302004+12:00:2020-09-16T18:03:10.4279487+12:00:Assembly resolving WebDriver.Support, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:03:10.4323257+12:00:2020-09-16T18:03:10.4313799+12:00:[AssemblyCache] Trying to resolve 'WebDriver.Support' from .deps.json file
+2020-09-16T18:03:10.4345491+12:00:2020-09-16T18:03:10.4334408+12:00:[AssemblyCache] Resolved 'WebDriver.Support' to 'C:\Users\brownc\.nuget\packages\selenium.support\3.141.0\lib\netstandard2.0\WebDriver.Support.dll'
+2020-09-16T18:03:53.7553683+12:00:2020-09-16T18:03:53.7526269+12:00:Thread#0:T:Login as Xero User
+2020-09-16T18:03:53.7947496+12:00:2020-09-16T18:03:53.7937281+12:00:Thread#0:T:done: XeroAddBankAccountSteps.GivenILoginAsAXeroUser() (58.5s)
+2020-09-16T18:03:53.7979768+12:00:2020-09-16T18:03:53.7974773+12:00:Thread#0:B:And I navigate to the Accounting, Bank Accounts page
+2020-09-16T18:03:53.7991263+12:00:2020-09-16T18:03:53.7987754+12:00:Thread#0:T:-> warning: The step GivenINavigateToTheAccountingBankAccountsPage is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T18:03:53.8021091+12:00:2020-09-16T18:03:53.8014625+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:03:53.8095055+12:00:2020-09-16T18:03:53.8034987+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:04:38.7783366+12:00:2020-09-16T18:04:38.7765608+12:00:Assembly resolving System.Net.Requests.resources, Version=4.1.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:04:38.7803218+12:00:2020-09-16T18:04:38.7794630+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' from .deps.json file
+2020-09-16T18:04:38.7812199+12:00:2020-09-16T18:04:38.7808048+12:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' from .deps.json
+2020-09-16T18:04:38.7842152+12:00:2020-09-16T18:04:38.7836114+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:04:38.7888238+12:00:2020-09-16T18:04:38.7883324+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\System.Net.Requests.resources.dll'
+2020-09-16T18:04:38.7896973+12:00:2020-09-16T18:04:38.7893327+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\System.Net.Requests.resources.exe'
+2020-09-16T18:04:38.7904351+12:00:2020-09-16T18:04:38.7901089+12:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:04:38.7915300+12:00:2020-09-16T18:04:38.7911343+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-09-16T18:04:38.7928208+12:00:2020-09-16T18:04:38.7924262+12:00:Tfm: netcoreapp3.1
+2020-09-16T18:04:38.7934917+12:00:2020-09-16T18:04:38.7931375+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-09-16T18:04:38.7941233+12:00:2020-09-16T18:04:38.7938071+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Net.Requests.resources.dll'
+2020-09-16T18:04:38.7949459+12:00:2020-09-16T18:04:38.7945561+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Net.Requests.resources.exe'
+2020-09-16T18:04:38.7956450+12:00:2020-09-16T18:04:38.7953128+12:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-09-16T18:04:38.8068026+12:00:2020-09-16T18:04:38.8062798+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T18:04:38.8160999+12:00:2020-09-16T18:04:38.8071304+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\System.Net.Requests.resources.dll'
+2020-09-16T18:04:38.8179032+12:00:2020-09-16T18:04:38.8174296+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\System.Net.Requests.resources.exe'
+2020-09-16T18:04:38.8187181+12:00:2020-09-16T18:04:38.8183555+12:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T18:04:38.8195953+12:00:2020-09-16T18:04:38.8192809+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T18:04:38.8202058+12:00:2020-09-16T18:04:38.8198956+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.1\System.Net.Requests.resources.dll'
+2020-09-16T18:04:38.8208732+12:00:2020-09-16T18:04:38.8205428+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.1\System.Net.Requests.resources.exe'
+2020-09-16T18:04:38.8214877+12:00:2020-09-16T18:04:38.8211927+12:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T18:04:38.8228490+12:00:2020-09-16T18:04:38.8224766+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T18:04:38.8234094+12:00:2020-09-16T18:04:38.8231100+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\System.Net.Requests.resources.dll'
+2020-09-16T18:04:38.8246716+12:00:2020-09-16T18:04:38.8243307+12:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\System.Net.Requests.resources.exe'
+2020-09-16T18:04:38.8253276+12:00:2020-09-16T18:04:38.8249822+12:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T18:04:38.8284339+12:00:2020-09-16T18:04:38.8279678+12:00:Assembly resolving System.Net.Requests.resources, Version=4.1.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:04:38.8686189+12:00:2020-09-16T18:04:38.8680901+12:00:Thread#0:T:error: Timed out after 30 seconds
+2020-09-16T18:04:38.8701760+12:00:2020-09-16T18:04:38.8698120+12:00:Thread#0:B:When I click Add bank account button
+2020-09-16T18:04:38.8717253+12:00:2020-09-16T18:04:38.8713895+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8752055+12:00:2020-09-16T18:04:38.8748331+12:00:Thread#0:B:When I select <ANZ> from the Banks list
+2020-09-16T18:04:38.8779351+12:00:2020-09-16T18:04:38.8775587+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8787627+12:00:2020-09-16T18:04:38.8783523+12:00:Thread#0:B:And I add my Account Name as <MyAnzAcc>
+2020-09-16T18:04:38.8795310+12:00:2020-09-16T18:04:38.8792003+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8802839+12:00:2020-09-16T18:04:38.8798691+12:00:Thread#0:B:And Account type as <Credit Card>
+2020-09-16T18:04:38.8810567+12:00:2020-09-16T18:04:38.8807045+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8817119+12:00:2020-09-16T18:04:38.8813838+12:00:Thread#0:B:And add my Credit Card Number as <1234000011112222>
+2020-09-16T18:04:38.8827996+12:00:2020-09-16T18:04:38.8823186+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8835660+12:00:2020-09-16T18:04:38.8832574+12:00:Thread#0:B:When I click the Continue button
+2020-09-16T18:04:38.8843758+12:00:2020-09-16T18:04:38.8840276+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8850336+12:00:2020-09-16T18:04:38.8847373+12:00:Thread#0:B:And I can Download a form for my Bank
+2020-09-16T18:04:38.8857151+12:00:2020-09-16T18:04:38.8853949+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8862808+12:00:2020-09-16T18:04:38.8859674+12:00:Thread#0:B:When I upload the form
+2020-09-16T18:04:38.8869340+12:00:2020-09-16T18:04:38.8866305+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8875246+12:00:2020-09-16T18:04:38.8872406+12:00:Thread#0:B:And Click return to Dashboard
+2020-09-16T18:04:38.8881545+12:00:2020-09-16T18:04:38.8878060+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.8890463+12:00:2020-09-16T18:04:38.8887493+12:00:Thread#0:B:Then I can see my new bank account in my Xero Organisation
+2020-09-16T18:04:38.8896988+12:00:2020-09-16T18:04:38.8893784+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:04:38.9192376+12:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2020-09-16T18:04:38.9216957+12:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-16T18:04:38.9217618+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-09-16T18:04:38.9217706+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-09-16T18:04:38.9218602+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-16T18:04:38.9218717+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-09-16T18:04:38.9218763+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-09-16T18:04:38.9218820+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-09-16T18:04:38.9219172+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-09-16T18:04:38.9219606+12:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2020-09-16T18:04:38.9767931+12:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 103.7778964 seconds
+2020-09-16T18:04:38.9793839+12:00:Thread#0: Test #4/1 is started on thread #0
+2020-09-16T18:04:38.9808846+12:00:2020-09-16T18:04:38.9804594+12:00:Thread#0:B:Given I login as a Xero User
+2020-09-16T18:04:38.9818493+12:00:2020-09-16T18:04:38.9814147+12:00:Thread#0:T:-> warning: The step GivenILoginAsAXeroUser is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T18:04:38.9825916+12:00:2020-09-16T18:04:38.9822505+12:00:Thread#0:T:*********************** Startup path is: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults******************************
+2020-09-16T18:04:51.9615371+12:00:2020-09-16T18:04:51.9591772+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:04:51.9666962+12:00:2020-09-16T18:04:51.9650455+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:04:51.9704959+12:00:2020-09-16T18:04:51.9687206+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:05:34.7698367+12:00:2020-09-16T18:05:34.7681081+12:00:Thread#0:T:Login as Xero User
+2020-09-16T18:05:34.7738346+12:00:2020-09-16T18:05:34.7724067+12:00:Thread#0:T:done: XeroAddBankAccountSteps.GivenILoginAsAXeroUser() (55.8s)
+2020-09-16T18:05:34.7760930+12:00:2020-09-16T18:05:34.7753430+12:00:Thread#0:B:And I navigate to the Accounting, Bank Accounts page
+2020-09-16T18:05:34.7782602+12:00:2020-09-16T18:05:34.7773939+12:00:Thread#0:T:-> warning: The step GivenINavigateToTheAccountingBankAccountsPage is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T18:05:34.7800263+12:00:2020-09-16T18:05:34.7794237+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:05:34.7813701+12:00:2020-09-16T18:05:34.7808794+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:05:52.4177809+12:00:2020-09-16T18:05:52.4161734+12:00:Thread#0:T:error: Failed to convert data to an object
+2020-09-16T18:05:52.4217078+12:00:2020-09-16T18:05:52.4202127+12:00:Thread#0:B:When I click Add bank account button
+2020-09-16T18:05:52.4266576+12:00:2020-09-16T18:05:52.4233188+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4309089+12:00:2020-09-16T18:05:52.4297400+12:00:Thread#0:B:When I select <ANZ> from the Banks list
+2020-09-16T18:05:52.4337048+12:00:2020-09-16T18:05:52.4325555+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4385854+12:00:2020-09-16T18:05:52.4363799+12:00:Thread#0:B:And I add my Account Name as <MyAnzAcc>
+2020-09-16T18:05:52.4433430+12:00:2020-09-16T18:05:52.4419803+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4462261+12:00:2020-09-16T18:05:52.4449883+12:00:Thread#0:B:And Account type as <Credit Card>
+2020-09-16T18:05:52.4481623+12:00:2020-09-16T18:05:52.4472287+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4495402+12:00:2020-09-16T18:05:52.4487472+12:00:Thread#0:B:And add my Credit Card Number as <1234000011112222>
+2020-09-16T18:05:52.4509929+12:00:2020-09-16T18:05:52.4501953+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4537107+12:00:2020-09-16T18:05:52.4520044+12:00:Thread#0:B:When I click the Continue button
+2020-09-16T18:05:52.4568311+12:00:2020-09-16T18:05:52.4554956+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4606546+12:00:2020-09-16T18:05:52.4586190+12:00:Thread#0:B:And I can Download a form for my Bank
+2020-09-16T18:05:52.4636308+12:00:2020-09-16T18:05:52.4631252+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4644372+12:00:2020-09-16T18:05:52.4640890+12:00:Thread#0:B:When I upload the form
+2020-09-16T18:05:52.4652502+12:00:2020-09-16T18:05:52.4648514+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4660335+12:00:2020-09-16T18:05:52.4656443+12:00:Thread#0:B:And Click return to Dashboard
+2020-09-16T18:05:52.4671320+12:00:2020-09-16T18:05:52.4665670+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4680742+12:00:2020-09-16T18:05:52.4675867+12:00:Thread#0:B:Then I can see my new bank account in my Xero Organisation
+2020-09-16T18:05:52.4689796+12:00:2020-09-16T18:05:52.4685254+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:05:52.4744676+12:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-16T18:05:52.4745622+12:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2020-09-16T18:05:52.4745763+12:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-09-16T18:05:52.4748589+12:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-09-16T18:05:52.4748734+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-09-16T18:05:52.4748810+12:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-09-16T18:05:52.4748886+12:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-09-16T18:05:52.4749693+12:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-09-16T18:05:52.4750495+12:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2020-09-16T18:05:52.4794860+12:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 73.4998677 seconds
+2020-09-16T18:05:52.4807059+12:00:Thread#0: Test #4/2 is started on thread #0
+2020-09-16T18:05:52.4826952+12:00:2020-09-16T18:05:52.4821016+12:00:Thread#0:B:Given I login as a Xero User
+2020-09-16T18:05:52.4839404+12:00:2020-09-16T18:05:52.4834329+12:00:Thread#0:T:-> warning: The step GivenILoginAsAXeroUser is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T18:05:52.4849295+12:00:2020-09-16T18:05:52.4845574+12:00:Thread#0:T:*********************** Startup path is: C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults******************************
+2020-09-16T18:06:05.4421578+12:00:2020-09-16T18:06:05.4412757+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:06:05.4439297+12:00:2020-09-16T18:06:05.4433345+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:06:05.4455721+12:00:2020-09-16T18:06:05.4448974+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:06:48.2689924+12:00:2020-09-16T18:06:48.2681798+12:00:Thread#0:T:Login as Xero User
+2020-09-16T18:06:48.2708085+12:00:2020-09-16T18:06:48.2700810+12:00:Thread#0:T:done: XeroAddBankAccountSteps.GivenILoginAsAXeroUser() (55.8s)
+2020-09-16T18:06:48.2716853+12:00:2020-09-16T18:06:48.2713761+12:00:Thread#0:B:And I navigate to the Accounting, Bank Accounts page
+2020-09-16T18:06:48.2726730+12:00:2020-09-16T18:06:48.2723396+12:00:Thread#0:T:-> warning: The step GivenINavigateToTheAccountingBankAccountsPage is obsolete because it is marked with ObsoleteAttribute but no custom message was provided.
+2020-09-16T18:06:48.2736887+12:00:2020-09-16T18:06:48.2733495+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:06:48.2747184+12:00:2020-09-16T18:06:48.2743841+12:00:Assembly resolving SeleniumExtras.PageObjects, Version=3.12.0.0, Culture=neutral, PublicKeyToken=null
+2020-09-16T18:07:33.0071811+12:00:2020-09-16T18:07:33.0062007+12:00:Thread#0:T:error: Timed out after 30 seconds
+2020-09-16T18:07:33.0082808+12:00:2020-09-16T18:07:33.0078397+12:00:Thread#0:B:When I click Add bank account button
+2020-09-16T18:07:33.0094160+12:00:2020-09-16T18:07:33.0090229+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0101741+12:00:2020-09-16T18:07:33.0098680+12:00:Thread#0:B:When I select <ANZ> from the Banks list
+2020-09-16T18:07:33.0110770+12:00:2020-09-16T18:07:33.0107952+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0117418+12:00:2020-09-16T18:07:33.0114429+12:00:Thread#0:B:And I add my Account Name as <MyAnzAcc>
+2020-09-16T18:07:33.0125845+12:00:2020-09-16T18:07:33.0122883+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0132710+12:00:2020-09-16T18:07:33.0129636+12:00:Thread#0:B:And Account type as <Credit Card>
+2020-09-16T18:07:33.0139998+12:00:2020-09-16T18:07:33.0136993+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0148317+12:00:2020-09-16T18:07:33.0143571+12:00:Thread#0:B:And add my Credit Card Number as <1234000011112222>
+2020-09-16T18:07:33.0156373+12:00:2020-09-16T18:07:33.0153554+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0164217+12:00:2020-09-16T18:07:33.0161639+12:00:Thread#0:B:When I click the Continue button
+2020-09-16T18:07:33.0170640+12:00:2020-09-16T18:07:33.0168029+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0175635+12:00:2020-09-16T18:07:33.0173642+12:00:Thread#0:B:And I can Download a form for my Bank
+2020-09-16T18:07:33.0182149+12:00:2020-09-16T18:07:33.0179483+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0187654+12:00:2020-09-16T18:07:33.0185180+12:00:Thread#0:B:When I upload the form
+2020-09-16T18:07:33.0193164+12:00:2020-09-16T18:07:33.0190709+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0198266+12:00:2020-09-16T18:07:33.0195688+12:00:Thread#0:B:And Click return to Dashboard
+2020-09-16T18:07:33.0203913+12:00:2020-09-16T18:07:33.0201367+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0209212+12:00:2020-09-16T18:07:33.0207156+12:00:Thread#0:B:Then I can see my new bank account in my Xero Organisation
+2020-09-16T18:07:33.0217341+12:00:2020-09-16T18:07:33.0215365+12:00:Thread#0:T:skipped because of previous errors
+2020-09-16T18:07:33.0243171+12:00:Thread#0:Scheduler: get next test for thread 0
+2020-09-16T18:07:33.0243520+12:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-16T18:07:33.0243601+12:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-09-16T18:07:33.0243658+12:00:Thread#0:Scheduler: No more tests for thread
+2020-09-16T18:07:33.0300914+12:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 100.5492394 seconds
+2020-09-16T18:07:33.0391188+12:00:2020-09-16T18:07:33.0387896+12:00:Got Deinitialize Signal
+2020-09-16T18:07:33.0431171+12:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-09-16T18:07:33.0438373+12:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-09-16T18:07:33.0454877+12:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-09-16T18:07:33.0488770+12:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:07:33.0489124+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-09-16T18:07:33.0489250+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-09-16T18:07:33.0489392+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:07:33.0489450+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-09-16T18:07:33.0490270+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-09-16T18:07:33.0491020+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1'
+2020-09-16T18:07:33.0491177+12:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-09-16T18:07:33.0492219+12:00:Tfm: netcoreapp3.1
+2020-09-16T18:07:33.0492348+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-09-16T18:07:33.0492400+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-09-16T18:07:33.0493364+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-09-16T18:07:33.0494244+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\Xero_SeleniumTest\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-09-16T18:07:33.0574449+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T18:07:33.0574639+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\System.Diagnostics.Process.resources.dll'
+2020-09-16T18:07:33.0575656+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1\System.Diagnostics.Process.resources.exe'
+2020-09-16T18:07:33.0576191+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.1'
+2020-09-16T18:07:33.0578349+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T18:07:33.0578449+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1\System.Diagnostics.Process.resources.dll'
+2020-09-16T18:07:33.0579068+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1\System.Diagnostics.Process.resources.exe'
+2020-09-16T18:07:33.0579497+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.1'
+2020-09-16T18:07:33.0581084+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T18:07:33.0581202+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\System.Diagnostics.Process.resources.dll'
+2020-09-16T18:07:33.0581796+12:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1\System.Diagnostics.Process.resources.exe'
+2020-09-16T18:07:33.0582217+12:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.1'
+2020-09-16T18:07:33.0593327+12:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-09-16T18:07:33.0666230+12:00:Thread#-1:Scheduler: get next test for thread -1
+2020-09-16T18:07:33.0666593+12:00:Thread#:Scheduler: at the end of normal test queue
+2020-09-16T18:07:33.0666646+12:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-09-16T18:07:33.0725197+12:00;Thread#12;Info;test run finished
+2020-09-16T18:07:33.0728184+12:00;Thread#12;Info;publishing test results
+2020-09-16T18:07:33.0729659+12:00;Thread#12;Info;Not publishing results.
+2020-09-16T18:07:33.0730758+12:00;Thread#12;Info;test results published
+2020-09-16T18:07:33.0731714+12:00;Thread#12;Info;generating reports
+2020-09-16T18:07:33.1493105+12:00;Thread#12;Info;Starting external report generation process
+2020-09-16T18:07:34.5270810+12:00;Thread#12;Info;Successfully generated reports.
+2020-09-16T18:07:34.5289917+12:00;Thread#12;Info;Successfully generated reports
+2020-09-16T18:07:34.5349410+12:00:Total: 1 (test executions: 3)
+2020-09-16T18:07:34.5368032+12:00:Succeeded: 0
+2020-09-16T18:07:34.5371085+12:00:Ignored: 0
+2020-09-16T18:07:34.5373716+12:00:Pending: 0
+2020-09-16T18:07:34.5373813+12:00:Skipped: 0
+2020-09-16T18:07:34.5376264+12:00:Failed: 1
+2020-09-16T18:07:34.5432454+12:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-09-16T18:07:34.5433360+12:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Projects\SeleniumC\XeroSeleniumTest\XeroAddBankAccountTest\TestResults\Unnamed project__2020-09-16T180253.html'
+========== End of log file ==========

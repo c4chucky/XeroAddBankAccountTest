@@ -696,6 +696,12 @@
           }
         }
       },
+      "Selenium.Firefox.WebDriver/0.27.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
       "Selenium.Support/3.141.0": {
         "type": "package",
         "dependencies": {
@@ -720,7 +726,7 @@
           "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
-      "SpecFlow/3.3.30": {
+      "SpecFlow/3.4.3": {
         "type": "package",
         "dependencies": {
           "BoDi": "1.4.1",
@@ -741,10 +747,10 @@
           "build/SpecFlow.targets": {}
         }
       },
-      "SpecFlow.Tools.MsBuild.Generation/3.3.30": {
+      "SpecFlow.Tools.MsBuild.Generation/3.4.3": {
         "type": "package",
         "dependencies": {
-          "SpecFlow": "[3.3.30]"
+          "SpecFlow": "[3.4.3]"
         },
         "build": {
           "build/SpecFlow.Tools.MsBuild.Generation.props": {},
@@ -754,7 +760,7 @@
           "buildMultiTargeting/SpecFlow.Tools.MsBuild.Generation.props": {}
         }
       },
-      "SpecRun.Runner/3.3.41": {
+      "SpecRun.Runner/3.4.19": {
         "type": "package",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.0.0"
@@ -764,18 +770,18 @@
           "build/SpecRun.Runner.targets": {}
         }
       },
-      "SpecRun.SpecFlow/3.3.41": {
+      "SpecRun.SpecFlow/3.4.19": {
         "type": "package",
         "dependencies": {
-          "SpecRun.SpecFlow.3-3-0": "[3.3.41]"
+          "SpecRun.SpecFlow.3-4-0": "[3.4.19]"
         }
       },
-      "SpecRun.SpecFlow.3-3-0/3.3.41": {
+      "SpecRun.SpecFlow.3-4-0/3.4.19": {
         "type": "package",
         "dependencies": {
-          "SpecFlow": "[3.3.30, 3.4.0)",
-          "SpecFlow.Tools.MsBuild.Generation": "[3.3.30, 3.4.0)",
-          "SpecRun.Runner": "3.3.41"
+          "SpecFlow": "[3.4.3, 3.5.0)",
+          "SpecFlow.Tools.MsBuild.Generation": "[3.4.3, 3.5.0)",
+          "SpecRun.Runner": "3.4.19"
         },
         "compile": {
           "lib/netstandard2.0/SpecRun.Runtime.SpecFlowPlugin.dll": {},
@@ -795,8 +801,8 @@
           }
         },
         "build": {
-          "build/SpecRun.SpecFlow.3-3-0.props": {},
-          "build/SpecRun.SpecFlow.3-3-0.targets": {}
+          "build/SpecRun.SpecFlow.3-4-0.props": {},
+          "build/SpecRun.SpecFlow.3-4-0.targets": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -3091,6 +3097,19 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "Selenium.Firefox.WebDriver/0.27.0": {
+      "sha512": "HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
+      ]
+    },
     "Selenium.Support/3.141.0": {
       "sha512": "F4sxMCXGyqWtbw5qsniJRgza2UsBnslHwFgNA2p7hPxvJhqg73lyXu/ZscJ7FSfRvq3eJrosysv92+4sZ3vWsg==",
       "type": "package",
@@ -3129,10 +3148,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "SpecFlow/3.3.30": {
-      "sha512": "JparyL5p4UKHBIFVxhuLG2pBBShGBILoYWREUXp+dOeChCbYWArHIB+NWEbeu3xdp6r6IJ65ps4CW/X7LgHm0Q==",
+    "SpecFlow/3.4.3": {
+      "sha512": "8JjN6MdqGqlEGhmVc53cCsIogMYqygHmKENEF4cxath5BE4Pp1V3Z6f783yE++3awQybRtiy5AXvx9i4lFXMsA==",
       "type": "package",
-      "path": "specflow/3.3.30",
+      "path": "specflow/3.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3150,14 +3169,14 @@
         "lib/netstandard2.0/TechTalk.SpecFlow.dll",
         "lib/netstandard2.0/TechTalk.SpecFlow.pdb",
         "lib/netstandard2.0/TechTalk.SpecFlow.xml",
-        "specflow.3.3.30.nupkg.sha512",
+        "specflow.3.4.3.nupkg.sha512",
         "specflow.nuspec"
       ]
     },
-    "SpecFlow.Tools.MsBuild.Generation/3.3.30": {
-      "sha512": "goNseYYHcaa28FBZRmBl9BkzPIqyL379vsuxCzp85WT6XS44L858h+oRicmAnGXBJ2SdZaqjXxATzorwFKmNlQ==",
+    "SpecFlow.Tools.MsBuild.Generation/3.4.3": {
+      "sha512": "fokg1BsfmIrGyJMJz0fM2LCzN2eNlouJo7S1aLN9xGxYTYT0id8sh8gp9dTPDtTY+J6x5sTjdytwdRMHSUBlzA==",
       "type": "package",
-      "path": "specflow.tools.msbuild.generation/3.3.30",
+      "path": "specflow.tools.msbuild.generation/3.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3173,7 +3192,7 @@
         "licenses/Gherkin-LICENSE-MIT.txt",
         "licenses/Newtonsoft.Json-LICENSE-MIT.md",
         "licenses/System.ValueTuple-LICENSE-MIT.txt",
-        "specflow.tools.msbuild.generation.3.3.30.nupkg.sha512",
+        "specflow.tools.msbuild.generation.3.4.3.nupkg.sha512",
         "specflow.tools.msbuild.generation.nuspec",
         "tasks/net461/BoDi.dll",
         "tasks/net461/Cucumber.Messages.dll",
@@ -3338,10 +3357,10 @@
         "tasks/netcoreapp2.1/Utf8Json.dll"
       ]
     },
-    "SpecRun.Runner/3.3.41": {
-      "sha512": "VGDbuww/rsQn4tG6FZOzABz9vMINoaVO9R0j6eE8SReQ4Yd8VtsIVLNcgWR8ilsklGbQdwPF8BMfst26XQViAQ==",
+    "SpecRun.Runner/3.4.19": {
+      "sha512": "6h0RX5tHPJ+t8BGCmqz5Sz8PWmQ/pjIzmRlPhlQru1R4W6pMi7kQAQ9jCCO5BafEHk0weOeCM3TeCcS0bcgGfg==",
       "type": "package",
-      "path": "specrun.runner/3.3.41",
+      "path": "specrun.runner/3.4.19",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -3358,7 +3377,7 @@
         "docs/Sample.runsettings",
         "docs/readme.txt",
         "readme.txt",
-        "specrun.runner.3.3.41.nupkg.sha512",
+        "specrun.runner.3.4.19.nupkg.sha512",
         "specrun.runner.nuspec",
         "templates/CucumberJson.cshtml",
         "templates/ReportTemplate.cshtml",
@@ -3408,35 +3427,6 @@
         "tools/net461/TechTalk.SpecRun.VisualStudio.TestAdapter.dll",
         "tools/net461/TechTalk.SpecRun.VisualStudio.TestAdapter.dll.config",
         "tools/net461/TechTalk.SpecRun.dll",
-        "tools/net461/server/Castle.Core.dll",
-        "tools/net461/server/Castle.Windsor.dll",
-        "tools/net461/server/EntityFramework.dll",
-        "tools/net461/server/Microsoft.ApplicationServer.Common.dll",
-        "tools/net461/server/Microsoft.ApplicationServer.Http.dll",
-        "tools/net461/server/Microsoft.ApplicationServer.HttpEnhancements.dll",
-        "tools/net461/server/Microsoft.ApplicationServer.Serialization.dll",
-        "tools/net461/server/Microsoft.ApplicationServer.ServiceModel.dll",
-        "tools/net461/server/Microsoft.Net.Http.dll",
-        "tools/net461/server/Microsoft.QueryComposition.dll",
-        "tools/net461/server/Microsoft.Runtime.Serialization.Json.dll",
-        "tools/net461/server/Microsoft.ServiceModel.Web.jQuery.dll",
-        "tools/net461/server/NConsoler.dll",
-        "tools/net461/server/NLog.dll",
-        "tools/net461/server/Ncqrs.CommandService.Contracts.dll",
-        "tools/net461/server/Ncqrs.CommandService.dll",
-        "tools/net461/server/Ncqrs.Config.Windsor.dll",
-        "tools/net461/server/Ncqrs.EventBus.dll",
-        "tools/net461/server/Ncqrs.Eventing.Sourcing.Snapshotting.DynamicSnapshot.dll",
-        "tools/net461/server/Ncqrs.dll",
-        "tools/net461/server/Newtonsoft.Json.dll",
-        "tools/net461/server/SpecRun.Server.exe",
-        "tools/net461/server/SpecRun.Server.exe.config",
-        "tools/net461/server/TechTalk.SpecRun.Common.dll",
-        "tools/net461/server/TechTalk.SpecRun.Server.Commands.dll",
-        "tools/net461/server/TechTalk.SpecRun.Server.Model.dll",
-        "tools/net461/server/TechTalk.SpecRun.Server.Model.dll.config",
-        "tools/net461/server/TechTalk.SpecRun.Server.Service.exe",
-        "tools/net461/server/TechTalk.SpecRun.Server.Service.exe.config",
         "tools/netcoreapp2.1/BoDi.dll",
         "tools/netcoreapp2.1/CommandLine.dll",
         "tools/netcoreapp2.1/FSharp.Core.dll",
@@ -3506,30 +3496,30 @@
         "tools/netcoreapp3.1/TechTalk.SpecRun.dll"
       ]
     },
-    "SpecRun.SpecFlow/3.3.41": {
-      "sha512": "a+1ErfDRzKw3Ax3FjXJi5+sarGIvxQ+Zd4QvI0LnXik10kTJAlkhMSIIkUBoDZ0k8pmQhrXQkTO7Z6vzFsKUag==",
+    "SpecRun.SpecFlow/3.4.19": {
+      "sha512": "EDg0P/+DxRf5ZbbhRMNf9iwBFI5GWCGvZMX7vXHQBCw0Ui2CaqLpYltoQTziNB/i9jxBNOSfnYYUN9nZfXlbXA==",
       "type": "package",
-      "path": "specrun.specflow/3.3.41",
+      "path": "specrun.specflow/3.4.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "specrun.specflow.3.3.41.nupkg.sha512",
+        "specrun.specflow.3.4.19.nupkg.sha512",
         "specrun.specflow.nuspec"
       ]
     },
-    "SpecRun.SpecFlow.3-3-0/3.3.41": {
-      "sha512": "YGFBSeY7IEZHdAAFpFmwyBVnje5/WoB177KXko70qLD0LaGNxGnX2NyP6ZI8GQGnO9pxfizITcVvKyKfuFUqjQ==",
+    "SpecRun.SpecFlow.3-4-0/3.4.19": {
+      "sha512": "TEfFDkvaiTjkIPz3sTgB/jrPqomEIcWjaGIDGRU0co7wFg3ANGKqiLfebsb1TwcFiyGg5uu7BcA2kk0M0B2Hbw==",
       "type": "package",
-      "path": "specrun.specflow.3-3-0/3.3.41",
+      "path": "specrun.specflow.3-4-0/3.4.19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "build/SpecFlow.Plus.Runner.AssemblyHooks.cs",
         "build/SpecFlow.Plus.Runner.AssemblyHooks.vb",
-        "build/SpecRun.SpecFlow.3-3-0.props",
-        "build/SpecRun.SpecFlow.3-3-0.targets",
+        "build/SpecRun.SpecFlow.3-4-0.props",
+        "build/SpecRun.SpecFlow.3-4-0.targets",
         "build/net471/SpecRun.Generator.SpecFlowPlugin.dll",
         "build/net471/SpecRun.Generator.SpecFlowPlugin.pdb",
         "build/net471/TechTalk.SpecRun.Common.dll",
@@ -3586,8 +3576,8 @@
         "lib/netstandard2.0/TechTalk.SpecRun.Common.dll",
         "lib/netstandard2.0/TechTalk.SpecRun.dll",
         "readme.txt",
-        "specrun.specflow.3-3-0.3.3.41.nupkg.sha512",
-        "specrun.specflow.3-3-0.nuspec"
+        "specrun.specflow.3-4-0.3.4.19.nupkg.sha512",
+        "specrun.specflow.3-4-0.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -7145,9 +7135,11 @@
       "NUnit >= 3.12.0",
       "NUnit.Runners >= 3.11.1",
       "NUnit3TestAdapter >= 3.17.0",
+      "Selenium.Firefox.WebDriver >= 0.27.0",
       "Selenium.Support >= 3.141.0",
       "Selenium.WebDriver >= 3.141.0",
-      "SpecRun.SpecFlow >= 3.3.41"
+      "SpecFlow >= 3.4.3",
+      "SpecRun.SpecFlow >= 3.4.19"
     ]
   },
   "packageFolders": {
@@ -7207,6 +7199,10 @@
             "target": "Package",
             "version": "[3.17.0, )"
           },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.27.0, )"
+          },
           "Selenium.Support": {
             "target": "Package",
             "version": "[3.141.0, )"
@@ -7215,9 +7211,13 @@
             "target": "Package",
             "version": "[3.141.0, )"
           },
+          "SpecFlow": {
+            "target": "Package",
+            "version": "[3.4.3, )"
+          },
           "SpecRun.SpecFlow": {
             "target": "Package",
-            "version": "[3.3.41, )"
+            "version": "[3.4.19, )"
           }
         },
         "imports": [
