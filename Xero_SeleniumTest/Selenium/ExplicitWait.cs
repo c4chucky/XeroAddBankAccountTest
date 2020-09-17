@@ -8,16 +8,12 @@ namespace Xero_SeleniumTest
 {
     public class ExplicitWait
     {
-        [Obsolete]
-        public IWebElement WaitforElement(IWebElement element)
+        public static IWebElement WaitforElement(By by)
         {
-            WebDriverWait wait = new WebDriverWait(DriverProperties.driver, new TimeSpan(0, 0, 15));
-            return wait.Until(ExpectedConditions.ElementToBeClickable(element));
+            WebDriverWait wait = new WebDriverWait(DriverProperties.driver, TimeSpan.FromSeconds(30));
+            return wait.Until(driver => driver.FindElement(by));
            
         }
-        
 
-        
-        
     }
 }

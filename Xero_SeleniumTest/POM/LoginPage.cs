@@ -9,28 +9,17 @@ namespace Xero_SeleniumTest
 {
     public class LoginPage
     {
-        public LoginPage()
-        {
-            PageFactory.InitElements(DriverProperties.driver, this);
-        }
+        ExplicitWait wait = new ExplicitWait();
 
-        [FindsBy(How = How.Name, Using = "Username")]
-        public IWebElement inputEmail { get; set; }
+        public IWebElement inputUsername = ExplicitWait.WaitforElement(By.XPath("//*[@data-automationid='Username--input']"));
+        public IWebElement inputPassword = ExplicitWait.WaitforElement(By.XPath("//*[@data-automationid='PassWord--input']"));
+        public IWebElement btnLogin = ExplicitWait.WaitforElement(By.XPath("//*[@data-automationid='LoginSubmit--button']"));
 
-        [FindsBy(How = How.Name, Using = "Password")]
-        public IWebElement inputPassword { get; set; }
-
-        [FindsBy(How = How.Name, Using = "button")]
-        public IWebElement btnLogin { get; set; }
-
-        [Obsolete]
         public void UserLogin()
         {
-            ExplicitWait wait = new ExplicitWait();
-            wait.WaitforElement(inputEmail).SendKeys("charleseckertbrown@gmail.com");
-            wait.WaitforElement(inputPassword).SendKeys("MyXeroPwrd!2020");
-            wait.WaitforElement(btnLogin).Click();
+            inputUsername.SendKeys("charleseckertbrown@gmail.com");
+            inputPassword.SendKeys("MyXeroPwrd!2020");
+            btnLogin.Click();
         }
-
     }
 }

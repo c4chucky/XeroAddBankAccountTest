@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\SeleniumC\\XeroSeleniumTest\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj": {}
+    "C:\\Projects\\SeleniumC\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\SeleniumC\\XeroSeleniumTest\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj": {
+    "C:\\Projects\\SeleniumC\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\SeleniumC\\XeroSeleniumTest\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj",
+        "projectUniqueName": "C:\\Projects\\SeleniumC\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj",
         "projectName": "Xero_SeleniumTest",
-        "projectPath": "C:\\Projects\\SeleniumC\\XeroSeleniumTest\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj",
+        "projectPath": "C:\\Projects\\SeleniumC\\XeroAddBankAccountTest\\Xero_SeleniumTest\\Xero_SeleniumTest.csproj",
         "packagesPath": "C:\\Users\\brownc\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\SeleniumC\\XeroSeleniumTest\\XeroAddBankAccountTest\\Xero_SeleniumTest\\obj\\",
+        "outputPath": "C:\\Projects\\SeleniumC\\XeroAddBankAccountTest\\Xero_SeleniumTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\brownc\\AppData\\Roaming\\NuGet\\NuGet.Config",
